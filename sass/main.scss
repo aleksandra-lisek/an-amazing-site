@@ -1,65 +1,133 @@
-html{
+html {
     margin: -10px;
 }
-.container{
+
+.container {
     display: flex;
     align-self: center;
     width: 62%;
     width: 70%;
-    padding: 5px 15% 0 15%;
+    padding: 5px 15% 0;
 }
 
-.banner{
+.banner {
     display: flex;
     width: 100%;
 }
 
-.main-header{
+.main-header {
     display: flex;
     width: 100%;
-
+    padding: 5px;
 }
 
-.banner-background{
+.banner-background {
     background-image: url("../images/background-1.jpg");
     width: 100vw;
     height: 700px;
-
 }
-.main-logo{
 
+.main-logo {
     width: 159px;
-height: 65px;
+    height: 65px;
 }
-.banner-nav{
 
-padding-left: 8%;
-display: flex;
-flex-flow: row;
+.banner-nav {
+    padding-left: 8%;
+    display: flex;
+    flex-flow: row;
     width: 60%;
+    align-self: flex-end;
 
-ul{
+    ul {
         list-style: none;
         display: flex;
         flex-flow: row;
         padding-left: 0;
         width: 100%;
-justify-content: space-between;
-align-items: center;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .info {
+        text-decoration: none;
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 22.52px;
+        text-transform: uppercase;
+        justify-content: space-between;
+
+        &:hover {
+            font-weight: 900;
+        }
+    }
+}
+
+.portfolio-txt-area{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+
+}
+
+.see-portfolio {
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px 0 10px ;
+}
+
+.portfolio-txt {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    line-height: 60px;
+    text-transform: uppercase;
 
 
 }
 
-.info{
+.first-txt {
+    font-weight: 400;
+    font-size: 36px;
+}
 
+.second-txt {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.about-portfolio{
+
+color: #ffffff;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 500;
+line-height: 24px;
+}
+
+.cta-button{
+    width: 243px;
+height: 61px;
+box-shadow: 0 0 10px rgba(4, 76, 84, 0.34);
+background-color: #9068be;
+
+font-family: 'Damion', cursive;
+font-size: 30px;
+font-weight: 400;
+line-height: 24px;
+display: flex;
+justify-content: center;
+align-items: center;
+&:hover{
+    transform: scale(1.02);
+}
+a{
     text-decoration: none;
     color: #ffffff;
-font-family: 'Roboto', sans-serif;
-font-size: 15px;
-font-weight: 500;
-line-height: 22.52px;
-text-transform: uppercase;
-justify-content: space-between;
-}
+    letter-spacing: 0.75px;
+    text-align: center;
 
+}
 }
