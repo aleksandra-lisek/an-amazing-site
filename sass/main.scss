@@ -1,0 +1,65 @@
+html{
+    margin: -10px;
+}
+.container{
+    display: flex;
+    align-self: center;
+    width: 62%;
+    width: 70%;
+    padding: 5px 15% 0 15%;
+}
+
+.banner{
+    display: flex;
+    width: 100%;
+}
+
+.main-header{
+    display: flex;
+    width: 100%;
+
+}
+
+.banner-background{
+    background-image: url("../images/background-1.jpg");
+    width: 100vw;
+    height: 700px;
+
+}
+.main-logo{
+
+    width: 159px;
+height: 65px;
+}
+.banner-nav{
+
+padding-left: 8%;
+display: flex;
+flex-flow: row;
+    width: 60%;
+
+ul{
+        list-style: none;
+        display: flex;
+        flex-flow: row;
+        padding-left: 0;
+        width: 100%;
+justify-content: space-between;
+align-items: center;
+
+
+}
+
+.info{
+
+    text-decoration: none;
+    color: #ffffff;
+font-family: 'Roboto', sans-serif;
+font-size: 15px;
+font-weight: 500;
+line-height: 22.52px;
+text-transform: uppercase;
+justify-content: space-between;
+}
+
+}
