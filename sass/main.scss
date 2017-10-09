@@ -1,3 +1,7 @@
+@import "about";
+
+
+
 html {
     margin: -10px;
 }
@@ -23,8 +27,9 @@ html {
 
 .banner-background {
     background-image: url("../images/background-1.jpg");
-    width: 100vw;
+    width: 100%;
     height: 700px;
+        background-size: cover;
 }
 
 .main-logo {
