@@ -1,0 +1,114 @@
+.services{
+    background-color: #f6f6f6;
+    height: 777px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.services-main-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    span{
+color: #828282;
+font-family: "Roboto", sans-serif;
+font-size: 30px;
+font-weight: 400;
+line-height: 22.52px;
+padding-bottom: 40px;
+    }
+
+    p{
+        color: #828282;
+font-family: "Roboto", sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+padding-top: 20px;
+    }
+
+}
+
+.services-boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+.service-box{
+    width: 573px;
+height: 297px;
+box-shadow: 0 0 4px rgba(0, 0, 0, 0.19);
+background-color: #ffffff;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+span{
+font-family: "Roboto";
+font-size: 24px;
+font-weight: 500;
+line-height: 24px;
+}
+
+p{
+    color: #555555;
+font-family: "Roboto";
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+padding: 0 10px 0 10px;
+}
+
+.services-button{
+    width: 170px;
+height: 43px;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.36);
+display: flex;
+justify-content: center;
+align-items: center;
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+font-family: "Damion";
+font-size: 22px;
+font-weight: 400;
+line-height: 24px;
+/* Text style for "Learn More" */
+letter-spacing: 0.55px;
+}
+}
+.move-down{
+    transform: translateY(50px);
+}
+
+}
+.title-coa{
+    color: #9068be;
+
+}
+
+.title-dev{
+    color: #02c6d8;
+
+}
+
+
+.btn-coa{
+    background-color: #e46e48;
+
+}
+
+.btn-dev{
+    background-color: #326c73;
+
+}
