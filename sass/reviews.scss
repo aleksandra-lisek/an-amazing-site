@@ -1,0 +1,68 @@
+.reviews {
+    display: flex;
+    height: 730px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.reviews-boxes {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .cyt {
+        width: 59px;
+        height: 57px;
+        color: rgba(144, 104, 190, .5); // font-family: "Bangla Sangam MN";
+        font-size: 200px;
+        font-weight: 400;
+        line-height: 30px;
+        transform: translateY(20px);
+    }
+}
+
+.review-box {
+    width: 373px;
+    height: 259px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.19);
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    p {
+        color: #555555;
+        font-family: "Roboto", sans-serif;
+        font-style: italic;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        width: 320px;
+        height: 159px;
+        align-self: center;
+    }
+
+    .review-photo {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        transform: translateY(30px);
+        font-family: "Damion";
+        font-weight: 400;
+        line-height: 18px;
+
+        .client-name {
+            color: #02c6d8;
+            font-size: 18px;
+            padding-top: 5px;
+        }
+
+        .client-website {
+            color: #9068be;
+            font-size: 24px;
+        }
+    }
+}

@@ -1,76 +1,72 @@
-.contact{
+.contact {
     height: 143px;
-background-color: #9068be;
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: space-around;
-
+    background-color: #9068be;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.contact-txt{
+.contact-txt {
     display: flex;
     flex-direction: column;
 
-    .c-txt-1{
+    .c-txt-1 {
         color: #ffffff;
-font-family: "Roboto", sans-serif;
-font-size: 26px;
-font-weight: 500;
-line-height: 24px;
-
+        font-family: "Roboto", sans-serif;
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 24px;
     }
-    .c-txt-2{
+
+    .c-txt-2 {
         color: #ffffff;
-font-family: "Roboto", sans-serif;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
     }
 }
 
-.contact-inputs{
+.contact-inputs {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 
-.inp-email{
-    margin: 0 10px 0 10px;
-
-}
-    .contact-input{
-        width: 254px;
-height: 46px;
-background-color: #ffffff;
-color: #ababab;
-font-family: Roboto;
-font-size: 14px;
-font-weight: 400;
-line-height: 24px;
-/* Text style for "E, nter yo" */
-letter-spacing: 0.35px;
+    .inp-email {
+        margin: 0 10px;
     }
 
-    .contact-button{
-        width: 182px;
-height: 46px;
-background-color: #e46e48;
-display: flex;
-justify-content: center;
-align-items: center;
-
-
-
-    a{
-        color: #ffffff;
-        font-family: "Damion";
-        font-size: 24px;
+    .contact-input {
+        width: 254px;
+        height: 46px;
+        background-color: #ffffff;
+        color: #ababab;
+        font-family: Roboto;
+        font-size: 14px;
         font-weight: 400;
         line-height: 24px;
-        letter-spacing: 0.6px;
-        text-decoration: none;
+        /* Text style for "E, nter yo" */
+        letter-spacing: 0.35px;
     }
 
+    .contact-button {
+        width: 182px;
+        height: 46px;
+        background-color: #e46e48;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            color: #ffffff;
+            font-family: "Damion";
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.6px;
+            text-decoration: none;
+        }
     }
 }
