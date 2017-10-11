@@ -2,17 +2,26 @@
 @import "contact";
 @import "services";
 @import "reviews";
+@import "work";
 
 html {
-    margin: -10px;
+    // margin: -10px;
+    font-size: 10px;
 }
 
+// body{
+//     width: 100%;
+// }
+
 .container {
-    display: flex;
-    align-self: center;
-    width: 62%;
-    width: 70%;
-    padding: 5px 15% 0;
+
+    padding: 5rem 0 5rem 0;
+}
+
+.btn{
+    &:hover{
+        transform: scale(1.05);
+    }
 }
 
 .banner {
