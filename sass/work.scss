@@ -1,5 +1,37 @@
-.work{
+.work {
     background-image: url("../images/work.png");
     background-color: #326c73;
     height: 553px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    p {
+        color: #ffffff;
+        font-family: "Roboto";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 36px;
+        padding-bottom: 80px;
+        text-align: center;
+    }
+
+    .work-button {
+        width: 253px;
+        height: 62px;
+        box-shadow: 0 0 10px rgba(4, 76, 84, 0.34);
+        background-color: #e46e48;
+
+
+        a {
+            font-size: 30px;
+            font-weight: 400;
+            line-height: 24px;
+            text-decoration: none;
+            letter-spacing: 0.75px;
+        }
+    }
 }

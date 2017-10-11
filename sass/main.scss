@@ -19,6 +19,14 @@ html {
 }
 
 .btn{
+    // color: #ffffff;
+    font-family: "Damion";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+        color: #ffffff;
+    }
     &:hover{
         transform: scale(1.05);
     }
