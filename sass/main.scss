@@ -3,15 +3,17 @@
 @import "services";
 @import "reviews";
 @import "work";
+@import "footer";
 
 html {
-    // margin: -10px;
+
     font-size: 10px;
 }
 
-// body{
-//     width: 100%;
-// }
+body{
+    width: 100%;
+    margin: 0;
+}
 
 .container {
 
