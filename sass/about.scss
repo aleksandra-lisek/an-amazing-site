@@ -1,6 +1,6 @@
 .about {
-    padding: 0 15px;
-    height: 850px;
+    padding: 0 1.5rem;
+    height: 85.0rem;
 }
 
 .about-main-area {
@@ -13,49 +13,49 @@
 .about-headline {
     color: #828282;
     font-family: "Roboto", sans-serif;
-    font-size: 30px;
+    font-size: 3.0rem;
     font-weight: 400;
-    line-height: 22.52px;
-    padding: 67px 0 0 0;
+    line-height: 2.252rem;
+    padding: 6.7rem 0 0 0;
 }
 
 
 
 .about-txt {
-    padding: 30px 20px 20px;
+    padding: 3.0rem 2.0rem 2.0rem;
     text-align: center;
     color: #828282;
     font-family: "Roboto", sans-serif;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 3.0rem;
 }
 
 .about-photo {
     z-index: 2;
-    box-shadow: 0 0 40px #dfe2e7;
-    height: 457px;
-    width: 469px;
+    box-shadow: 0 0 4.0rem #dfe2e7;
+    height: 45.7rem;
+    width: 46.9rem;
 }
 
 .about-ps {
-    width: 737px;
-    height: 364px;
+    width: 73.7rem;
+    height: 36.4rem;
     background-color: #f6f6f6;
     display: flex;
-    padding-left: 60px;
-    padding-right: 30px;
+    padding-left: 6.0rem;
+    padding-right: 3.0rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transform: translateX(-20px);
+    transform: translateX(-2.0rem);
 
     .first-about-p {
         color: #555555;
         font-family: "Roboto", sans-serif;
-        font-size: 14px;
+        font-size: 1.4rem;
         font-weight: 400;
-        line-height: 24px;
+        line-height: 2.4rem;
     }
 }
 
@@ -69,9 +69,9 @@
     align-self: flex-start;
     color: #e46e48;
     font-family: "Roboto", sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 2.4rem;
     text-decoration: none;
 
     &:hover {
