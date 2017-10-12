@@ -18,7 +18,7 @@
         font-size: 30px;
         font-weight: 400;
         line-height: 22.52px;
-        
+
     }
 
     p {
@@ -37,8 +37,38 @@
     flex-direction: row;
     justify-content: space-around;
 }
+.coaching::after{
+    position: absolute;
+    content: "";
+    height: 140px;
+    width: 140px;
+    border-radius: 100%;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.36);
+    background-color: #9068be;
+    background-image: url("../images/coaching.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translateY(-150px);
 
+}
+
+
+.development::after{
+    position: absolute;
+    content: "";
+    height: 140px;
+    width: 140px;
+    border-radius: 100%;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.36);
+    background-color: #02c6d8;
+    background-image: url("../images/development.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translateY(-150px);
+
+}
 .service-box {
+    position: relative;
     width: 573px;
     height: 297px;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.19);
@@ -48,6 +78,26 @@
     align-items: center;
     justify-content: center;
 
+
+
+    // .box-icon{
+    //     width: 150px;
+    //     height: 150px;
+    //     box-shadow: 0 0 6px rgba(0, 0, 0, 0.36);
+    //     border-radius: 100%;
+    //
+    // }
+    //
+    // .coaching-icon{
+    //     background-color: #9068be;
+    //     background-image: url("../images/coaching.png");
+    //
+    // }
+    //
+    // .development-icon{
+    //     background-color: #02c6d8;
+    //     background-image: url("../images/development.png");
+    // }
     span {
         font-family: "Roboto";
         font-size: 24px;
