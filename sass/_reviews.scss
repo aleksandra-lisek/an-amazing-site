@@ -4,7 +4,6 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    // justify-content: space-around;
 
     .reviews-txt-area{
         display: flex;
@@ -17,7 +16,7 @@
 
     .reviews-title{
         color: #828282;
-font-family: "Roboto";
+
 font-size: 3.0rem;
 font-weight: 400;
 line-height: 2.252rem;
@@ -26,7 +25,7 @@ line-height: 2.252rem;
 
     .reviews-paragraph{
         color: #828282;
-font-family: "Roboto";
+
 font-size: 1.8rem;
 font-weight: 400;
 line-height: 3.0rem;
@@ -46,7 +45,7 @@ padding-top: 2.0rem;
     .cyt {
         width: 5.9rem;
         height: 5.7rem;
-        color: rgba(144, 104, 190, .5); 
+        color: rgba(144, 104, 190, .5);
         font-size: 20.0rem;
         font-weight: 400;
         line-height: 3.0rem;
@@ -65,7 +64,7 @@ padding-top: 2.0rem;
 
     p {
         color: #555555;
-        font-family: "Roboto", sans-serif;
+
         font-style: italic;
         font-size: 1.5rem;
         font-weight: 400;

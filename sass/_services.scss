@@ -14,16 +14,13 @@
 
     span {
         color: #828282;
-        font-family: "Roboto", sans-serif;
         font-size: 3.0rem;
         font-weight: 400;
         line-height: 2.252rem;
-
     }
 
     p {
         color: #828282;
-        font-family: "Roboto", sans-serif;
         font-size: 1.8rem;
         font-weight: 400;
         line-height: 3.0rem;
@@ -37,7 +34,8 @@
     flex-direction: row;
     justify-content: space-around;
 }
-.coaching::after{
+
+.coaching::after {
     position: absolute;
     content: "";
     height: 14.0rem;
@@ -49,11 +47,9 @@
     background-repeat: no-repeat;
     background-position: center;
     transform: translateY(-15.0rem);
-
 }
 
-
-.development::after{
+.development::after {
     position: absolute;
     content: "";
     height: 14.0rem;
@@ -65,8 +61,8 @@
     background-repeat: no-repeat;
     background-position: center;
     transform: translateY(-15.0rem);
-
 }
+
 .service-box {
     position: relative;
     width: 57.3rem;
@@ -78,10 +74,7 @@
     align-items: center;
     justify-content: center;
 
-
-
     span {
-        font-family: "Roboto";
         font-size: 2.4rem;
         font-weight: 500;
         line-height: 2.4rem;
@@ -89,7 +82,6 @@
 
     p {
         color: #555555;
-        font-family: "Roboto";
         font-size: 1.4rem;
         font-weight: 400;
         line-height: 2.4rem;
@@ -100,20 +92,17 @@
     .services-button {
         width: 17.0rem;
         height: 4.3rem;
-        box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.36);
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        transform: translateY(5rem);
 
         a {
-            text-decoration: none;
-            color: #ffffff;
-            font-family: "Damion";
             font-size: 2.2rem;
             font-weight: 400;
             line-height: 2.4rem;
-            /* Text style for "Learn More" */
             letter-spacing: 0.055rem;
+        }
+
+        &:hover {
+            transform: translateY(5.5rem);
         }
     }
 

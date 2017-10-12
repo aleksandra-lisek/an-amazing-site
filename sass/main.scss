@@ -9,6 +9,7 @@ html {
     padding: 0;
     margin: 0;
     font-size: 10px;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -30,13 +31,15 @@ body {
 
 .btn {
     // color: #ffffff;
-    font-family: "Damion";
+    font-family: "Damion", cusive;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.36);
 
     a {
         color: #ffffff;
+        text-decoration: none;
     }
 
     &:hover {
@@ -70,13 +73,13 @@ body {
 .banner-nav {
     display: flex;
     flex-flow: row;
-    width: 80%;
+    width: 85%;
 
     ul {
         list-style: none;
         display: flex;
         flex-flow: row;
-        width: 90%;
+        width: 100%;
         justify-content: space-between;
         align-items: center;
         padding-left: 25rem;
@@ -85,7 +88,6 @@ body {
     .info {
         text-decoration: none;
         color: #ffffff;
-        font-family: 'Roboto', sans-serif;
         font-size: 1.5rem;
         font-weight: 500;
         line-height: 2.252rem;
@@ -113,7 +115,6 @@ body {
 .portfolio-txt {
     text-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.21);
     color: #ffffff;
-    font-family: "Roboto", sans-serif;
     line-height: 6.0rem;
     text-transform: uppercase;
 }
@@ -130,7 +131,6 @@ body {
 
 .about-portfolio {
     color: #ffffff;
-    font-family: "Roboto";
     font-size: 1.8rem;
     font-weight: 500;
     line-height: 2.4rem;
@@ -139,23 +139,16 @@ body {
 .cta-button {
     width: 24.3rem;
     height: 6.1rem;
-    box-shadow: 0 0 1.0rem rgba(4, 76, 84, 0.34);
     background-color: #9068be;
-    font-family: 'Damion', cursive;
     font-size: 3.0rem;
     font-weight: 400;
     line-height: 2.4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
     &:hover {
         transform: scale(1.02);
     }
 
     a {
-        text-decoration: none;
-        color: #ffffff;
         letter-spacing: 0.075rem;
         text-align: center;
     }
