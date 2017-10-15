@@ -5,6 +5,7 @@
 @import "work";
 @import "footer";
 
+
 html {
     padding: 0;
     margin: 0;
@@ -152,4 +153,47 @@ body {
         letter-spacing: 0.075rem;
         text-align: center;
     }
+}
+
+// MEDIA QUERYS
+
+@media (min-width: 321px) and (max-width: 767px) {
+    html{
+        font-size: 8px;
+    }
+    .banner-background{
+        height: 400px;
+    }
+
+    .see-portfolio{
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .portfolio-txt-area{
+
+        height: 100%;
+        padding-top: 100px;
+
+        .second-txt{
+            font-size: 35px;
+        }
+    span{
+        align-self: center;
+    }
+
+    }
+
+    .cta-button{
+        align-self: center;
+    }
+    .banner-nav{
+        display: none;
+    }
+
+    .portfolio-image{
+        display: none;
+    }
+
 }
