@@ -60,3 +60,35 @@
         }
     }
 }
+
+@media (min-width: 321px) and (max-width: 610px) {
+    .contact {
+        height: 40rem;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .contact-txt{
+        transform: translateY(30px);
+        text-align: center;
+        justify-content: space-between;
+
+
+    }
+
+    .contact-inputs {
+        height: 40%;
+        flex-direction: column;
+
+    }
+}
+
+@media (min-width: 611px) and (max-width: 767px) {
+
+    .contact {
+        height: 17rem;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+}

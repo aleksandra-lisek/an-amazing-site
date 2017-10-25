@@ -126,3 +126,78 @@
 .btn-dev {
     background-color: #326c73;
 }
+
+
+@media (min-width: 321px) and (max-width: 610px) {
+
+    .services{
+        height: 160rem;
+
+    }
+
+    .services-boxes {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+
+
+
+    }
+
+    .service-box{
+        height: 35rem;
+        width: 35rem;
+
+    }
+
+    .coaching{
+        margin-bottom: 18rem;
+
+    }
+
+    .coaching::after {
+        transform: translateY(-20.0rem);
+    }
+
+    .development::after {
+        transform: translateY(-20.0rem);
+    }
+
+}
+
+@media (min-width: 611px) and (max-width: 767px) {
+
+    .services{
+        height: 88rem;
+
+    }
+
+    .services-boxes {
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        justify-content: space-around;
+        width: 100%;
+
+
+
+    }
+
+    .service-box{
+        height: 43rem;
+        width: 30rem;
+
+    }
+
+    .coaching::after {
+        transform: translateY(-25.0rem);
+    }
+
+    .development::after {
+        transform: translateY(-25.0rem);
+    }
+
+
+
+
+}
