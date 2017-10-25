@@ -71,7 +71,44 @@
 
 
 document.addEventListener("DOMContentLoaded", function () {
-    console.log('hhhhhhhhhhhhhhhh');
+    var prev = document.querySelector(".prev");
+    var next = document.querySelector('.next');
+    var slideIndex = 1;
+
+    //function which change "display" of divs with reviews
+    var ShowSlides = function ShowSlides(n) {
+        var i = void 0;
+        var slides = document.getElementsByClassName("review-box");
+
+        if (n > slides.length) {
+            slideIndex = 1;
+        }
+        if (n < 1) {
+            slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slides[slideIndex - 1].style.display = "flex";
+    };
+
+    // function which choose next review
+    var NextSlides = function NextSlides() {
+        var n = 1;
+
+        ShowSlides(slideIndex += n);
+    };
+
+    // function which choose previous review
+
+    var PrevSlides = function PrevSlides() {
+        var n = -1;
+
+        ShowSlides(slideIndex += n);
+    };
+
+    prev.addEventListener("click", PrevSlides);
+    next.addEventListener("click", NextSlides);
 });
 
 /***/ })
