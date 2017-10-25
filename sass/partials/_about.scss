@@ -72,3 +72,44 @@
         font-weight: bold;
     }
 }
+
+
+
+
+@media (min-width: 321px) and (max-width: 767px) {
+
+    .about {
+        height: 100.0rem;
+    }
+
+    .about-comment{
+        flex-direction: column;
+        transform: translateY(-10rem)
+
+    }
+
+    .about-ps{
+        transform: translateY(-18rem) scale(0.8);
+
+
+        .first-about-p{
+            font-size: 2rem;
+            text-align: center;
+
+        }
+
+
+        .second-about-p{
+            display: none;
+        }
+
+
+    }
+
+    .about-photo{
+        transform: scale(0.4);
+
+    }
+
+
+}
