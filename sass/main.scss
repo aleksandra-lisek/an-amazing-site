@@ -110,7 +110,7 @@ header {
 }
 
 .more{
-    // display: none;
+    display: none;
 }
 
 .portfolio-txt-area {
@@ -201,11 +201,66 @@ header {
         align-self: center;
     }
     .banner-nav{
-        display: none;
+
+        z-index: 5;
+        position: fixed;
+        top: 40px;
+        right: -242px;
+        .info{
+            font-size: 2.5rem;
+        }
+        ul{
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+            padding: 0;
+            border: 1px solid black;
+                background-color: black;
+
+            li{
+                padding: 3px;
+                align-self: center;
+            }
+
+        }
+
+    }
+
+
+    .more{
+        display: flex;
+        position: fixed;
+        right: 65px;
+        top: 23px;
+
+        a{
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 2.5rem;
+            font-weight: 500;
+            line-height: 2.252rem;
+            text-transform: uppercase;
+            justify-content: space-between;
+
+        }
+
     }
 
     .portfolio-image{
         display: none;
     }
+
+}
+
+@media (min-width: 768px) and (max-width: 950px){
+    .banner-nav{
+        display: none;
+    }
+
+
+}
+
+@media (min-width: 951px){
+
 
 }

@@ -112,7 +112,7 @@
         }
     }
 }
-@media (min-width: 321px) and (max-width: 767px) {
+@media (min-width: 321px) and (max-width: 1160px) {
     .reviews {
         height: 93.0rem;
     }
@@ -137,10 +137,14 @@
         align-items: center;
     }
 }
-@media (min-width: 770px)  {
+@media (min-width: 1160px)  {
     .next,
     .prev {
         display: none;
+    }
+
+    .hide{
+        display: flex;
     }
 
 }
